@@ -1,0 +1,17 @@
+name: Bug report
+description: Report a problem
+title: "[Bug] "
+labels: ["type:bug", "status:triage"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Steps / expected / actual
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Evidence
+      description: Paste logs, screenshots, links
