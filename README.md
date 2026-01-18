@@ -3,6 +3,21 @@
 > **"From High-Depreciation Skills to Low-Depreciation Assets"**
 > 本組織致力於建構可重用、可演進的 AI 協作資產庫。
 
+## Purpose / Scope
+Org-level governance entrypoint and default community health files for all repos in the organization.
+
+## Ownership / CODEOWNERS
+Owned by `@aaa/architect` and `@aaa/platform`. See `CODEOWNERS`.
+
+## Versioning / Release
+Changes to governance rules and templates are versioned via git tags when policy changes are made.
+
+## How to Consume / Use
+GitHub automatically applies this repo's templates and policies across the organization.
+
+## Contribution / Promotion Rules
+All changes require review by org admins and must stay aligned with `GOVERNANCE.md`.
+
 ## 🏗️ Architecture Topology (架構拓樸)
 
 本組織採用 **「模板生成 + 中央引用」** 的星狀架構。所有專案皆由模板生成，並持續引用中央資產。
