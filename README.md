@@ -18,6 +18,11 @@ GitHub automatically applies this repo's templates and policies across the organ
 ## Contribution / Promotion Rules
 All changes require review by org admins and must stay aligned with `GOVERNANCE.md`.
 
+## Start Here
+- Bootstrap protocol: `BOOTSTRAP_PROTOCOL.md`
+- Governance baseline: `GOVERNANCE.md`
+- Docs SSOT: `aaa-tpl-docs`
+
 ## 🏗️ Architecture Topology (架構拓樸)
 
 本組織採用 **「模板生成 + 中央引用」** 的星狀架構。所有專案皆由模板生成，並持續引用中央資產。
