@@ -8,7 +8,8 @@
 
 ### 對訪客（Visitors）
 目前本組織採 **Private Beta** 運作。  
-若您希望加入或試用，請聯絡 `@aaa/architect`，或由內部成員協助開權限。
+若您希望加入或試用，請聯絡 `@aaa/architect`，或提交 Access Request Issue：  
+https://github.com/ai-asset-architecture/.github/issues/new?template=access_request.yml
 
 ### 對成員（Members）— 5 分鐘開案
 我們採用「零相依啟動」：**不需要 clone 整個 AAA**，只要安裝 CLI。
@@ -37,7 +38,8 @@ gh api -H "Accept: application/vnd.github.v3.raw" \
 aaa init --plan /tmp/aaa_plan_resolved.json
 ```
 
-詳細步驟請看：`aaa-tpl-docs/docs/new-project-sop.md`
+詳細步驟請看：  
+https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/docs/new-project-sop.md
 
 ---
 
