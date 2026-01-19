@@ -22,6 +22,7 @@ All changes require review by org admins and must stay aligned with `GOVERNANCE.
 - Bootstrap protocol: `BOOTSTRAP_PROTOCOL.md`
 - Governance baseline: `GOVERNANCE.md`
 - Docs SSOT: `aaa-tpl-docs`
+- New project SOP: `aaa-tpl-docs/docs/new-project-sop.md`
 
 ## 🏗️ Architecture Topology (架構拓樸)
 
