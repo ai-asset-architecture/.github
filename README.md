@@ -24,6 +24,7 @@ All changes require review by org admins and must stay aligned with `GOVERNANCE.
 - Docs SSOT: `aaa-tpl-docs`
 - New project SOP: `aaa-tpl-docs/docs/new-project-sop.md`
 - Member SOP 已包含 `gh auth setup-git` 與 `gh api` 私有下載說明
+- SOP 內含雙路徑（人類手動 / Codex 執行）
 - 人類先看 `new-project-sop.md`，Codex 再讀 `aaa-tools/runbooks/init/AGENT_BOOTSTRAP.md`
 
 ## 🏗️ Architecture Topology (架構拓樸)
