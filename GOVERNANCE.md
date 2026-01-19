@@ -24,6 +24,12 @@ Applies to all repositories unless explicitly documented as an exception.
 Any exception must be documented in `<repo>/README.md` under `Governance Exceptions`,
 and approved by `@aaa/architect`.
 
+#### 2.3.1 Known Exception (v0.1)
+Current AAA org repositories are **private** and the GitHub plan does not allow
+branch protection on private repos. Until the org plan supports it, branch protection
+is **not enforced** on AAA repos. This exception does **not** apply to new project
+orgs; they should enable branch protection as soon as the plan allows.
+
 ## 3. Teams & Ownership (Minimum Set)
 
 ### 3.1 Teams
