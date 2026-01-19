@@ -23,6 +23,7 @@ All changes require review by org admins and must stay aligned with `GOVERNANCE.
 - Governance baseline: `GOVERNANCE.md`
 - Docs SSOT: `aaa-tpl-docs`
 - New project SOP: `aaa-tpl-docs/docs/new-project-sop.md`
+- 人類先看 `new-project-sop.md`，Codex 再讀 `aaa-tools/runbooks/init/AGENT_BOOTSTRAP.md`
 
 ## 🏗️ Architecture Topology (架構拓樸)
 
