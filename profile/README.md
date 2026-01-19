@@ -17,6 +17,7 @@
 ```bash
 gh --version
 gh auth status
+gh auth setup-git
 git --version
 python3 --version
 ```
@@ -24,14 +25,15 @@ python3 --version
 **2) 安裝 AAA 工具**
 ```bash
 python3 -m pip install --upgrade pip
-python3 -m pip install git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.1.0
+python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.1.0"
 aaa --version
 ```
 
 **3) 下載計畫檔並啟動**
 ```bash
-curl -L -o /tmp/aaa_plan_resolved.json \
-  https://raw.githubusercontent.com/ai-asset-architecture/aaa-tools/v0.1.0/runbooks/init/plan.v0.1.json
+gh api -H "Accept: application/vnd.github.v3.raw" \
+  /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.1.json?ref=v0.1.0 \
+  > /tmp/aaa_plan_resolved.json
 aaa init --plan /tmp/aaa_plan_resolved.json
 ```
 
