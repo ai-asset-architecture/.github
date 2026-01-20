@@ -110,14 +110,24 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 ---
 
-### 🌟 開始您的資產化行動
+### ✅ 目前進度（Real Progress）
 
-建議從**30 天行動方案**開始，將一個核心任務轉化為第一個低折舊資產：
+目前已完成 AAA v0.2 的核心落地，重點進度如下：
 
-- **Week 1:** 建立 Playbook v1（定義流程與 Top 10 錯誤清單）
-- **Week 2:** 建立 Evals v1（設計測試案例與合格標準）
-- **Week 3:** 建立 Template Library（模組化提示詞與結構）
-- **Week 4:** 導入 Tooling/Git（設定 Repo 結構，實現自動化檢查與資產回流）
+- **治理基線**：Branch Protection / CODEOWNERS / Governance 規範已建立
+- **工具鏈**：`aaa-tools` CLI + Runbooks/Schema/Contracts 完整對齊
+- **技能系統**：skills v0.2（Routing / Rules / Fallback）與 smoke 檢查已上線
+- **模板與 SOP**：新專案 SOP（Member Edition）與 AAA 模板已更新
+
+詳細里程碑與版本紀錄請見 `aaa-tpl-docs/reports/`（內部）。
+
+### 🧭 近期規劃（Short-Term）
+
+接下來 2–4 週的重點工作：
+
+- **RDR 可稽核化**：補齊 Route Decision Record（可追溯路由決策）
+- **Triage Taxonomy**：建立任務分類與最小測試集
+- **技能測試升級**：從 smoke 走向功能級驗證與 fallback 測試
 
 ---
 
