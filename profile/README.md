@@ -26,14 +26,14 @@ python3 --version
 **2) 安裝 AAA 工具**
 ```bash
 python3 -m pip install --upgrade pip
-python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.1.0"
+python3 -m pip install "git+https://github.com/ai-asset-architecture/aaa-tools.git@v0.2.0"
 aaa --version
 ```
 
 **3) 下載計畫檔並啟動**
 ```bash
 gh api -H "Accept: application/vnd.github.v3.raw" \
-  /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.1.json?ref=v0.1.0 \
+  /repos/ai-asset-architecture/aaa-tools/contents/runbooks/init/plan.v0.1.json?ref=v0.2.0 \
   > /tmp/aaa_plan_resolved.json
 aaa init --plan /tmp/aaa_plan_resolved.json
 ```
