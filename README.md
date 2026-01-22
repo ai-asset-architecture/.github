@@ -46,6 +46,7 @@ graph TD
     TOOLS[aaa-tools] -->|CLI/Scripts| TPL_SVC
     EVALS[aaa-evals] -->|Baselines| ACTIONS
     PROMPTS[aaa-prompts] -->|Assets| TOOLS
+    OBS[aaa-observability] -->|Telemetry| ACTIONS
 
     %% Template Layer (Consumers)
     TPL_DOCS -->|SSOT| NEW_PROJ_DOCS[Project Docs]
@@ -69,7 +70,7 @@ graph TD
 
 2. **`[Pipeline]` aaa-actions**
 * **內容**: Reusable workflows (`lint`, `test`, `eval`, `release`).
-* **關鍵**: 必須先打上 `v0.1.0` tag，後續模板才能引用。
+* **關鍵**: 必須先打上 `v0.1.0` tag，後續模板才能引用（v0.6 Gate 仍以此為基準）。
 
 
 
@@ -115,6 +116,7 @@ graph TD
 
 * **Governance Rules**: 請參閱 [GOVERNANCE.md](GOVERNANCE.md) 了解 Branch Protection 與 Team 權責。
 * **Asset Contribution**: 請參閱各 Asset Repo 的 `CONTRIBUTING.md`。
+* **Readiness Gate (v0.6)**: 參考 `aaa-tpl-docs/reports/audits/aaa_v0.6_readiness_gate_20260122_2310.md`
 
 ---
 

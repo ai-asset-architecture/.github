@@ -112,12 +112,14 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 ### ✅ 目前進度（Real Progress）
 
-目前已完成 AAA v0.2 的核心落地，重點進度如下：
+目前已完成 AAA v0.6 的核心落地，重點進度如下：
 
 - **治理基線**：Branch Protection / CODEOWNERS / Governance 規範已建立
-- **工具鏈**：`aaa-tools` CLI + Runbooks/Schema/Contracts 完整對齊
+- **工具鏈**：`aaa-tools` CLI + Runbooks/Schema/Contracts 完整對齊，支援 `--json` 與 `--runbook-file`
+- **安全治理**：`agent_safety`（預期阻擋視為 PASS）與 `orphaned_assets` 已納入治理檢查
 - **技能系統**：skills v0.2（Routing / Rules / Fallback）與 smoke 檢查已上線
 - **模板與 SOP**：新專案 SOP（Member Edition）與 AAA 模板已更新
+- **Readiness Gate**：v0.6 Gate 規範已形成（內部報告）
 
 詳細里程碑與版本紀錄請見 `aaa-tpl-docs/reports/`（內部）。
 
@@ -125,6 +127,7 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 接下來 2–4 週的重點工作：
 
+- **Readiness Gate 自動化**：將 v0.6 Gate 檢查落到可重複驗證流程
 - **RDR 可稽核化**：補齊 Route Decision Record（可追溯路由決策）
 - **Triage Taxonomy**：建立任務分類與最小測試集
 - **技能測試升級**：從 smoke 走向功能級驗證與 fallback 測試

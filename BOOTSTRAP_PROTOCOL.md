@@ -60,6 +60,6 @@ Execute commands sequentially. If repo already exists, skip creation and continu
 - Print: "Bootstrap complete. Please review the created repos."
 
 ## 5. Reference
-- Runbook: `aaa-tools/runbooks/init/INIT_PROJECT.md`
-- Plan: `aaa-tools/runbooks/init/plan.v0.1.json`
+- Runbook: `aaa-tools/runbooks/init/AGENT_BOOTSTRAP.md`
+- Plan: `aaa-tools/runbooks/init/plan.v0.1.json` (ref: `v0.2.0`)
 - Output schema: `aaa-tools/runbooks/init/output.schema.json`

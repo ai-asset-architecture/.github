@@ -67,3 +67,9 @@ All required status checks must use `aaa-actions` pinned by tag:
 Changes to this baseline require:
 - PR review from `@aaa/architect` (mandatory)
 - Announcement in `.github` (via PR description + change log note)
+
+## 7. Readiness Gates (v0.6)
+The following checks must pass for v0.6 readiness:
+- `orphaned_assets` must PASS (no orphaned governance assets).
+- `agent_safety` must PASS with expected blocks (`PATH_TRAVERSAL` / `SCOPE_VIOLATION`).
+- `aaa run runbook --json` output must be valid JSON and include `status` and `error_code` (when blocked).
