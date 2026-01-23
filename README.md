@@ -70,7 +70,7 @@ graph TD
 
 2. **`[Pipeline]` aaa-actions**
 * **內容**: Reusable workflows (`lint`, `test`, `eval`, `release`).
-* **關鍵**: 必須先打上 `v0.1.0` tag，後續模板才能引用（v0.6 Gate 仍以此為基準）。
+* **關鍵**: 必須先打上 `v0.7.0` tag，後續模板才能引用（v0.7 Gate 以此為基準）。
 
 
 

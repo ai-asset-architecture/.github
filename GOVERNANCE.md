@@ -50,12 +50,12 @@ orgs; they should enable branch protection as soon as the plan allows.
 
 ## 4. Required Workflow Source
 All required status checks must use `aaa-actions` pinned by tag:
-- Example: `uses: ai-asset-architecture/aaa-actions/.github/workflows/lint.yml@v0.1.0`
+- Example: `uses: ai-asset-architecture/aaa-actions/.github/workflows/lint.yml@v0.7.0`
 
 ## 5. Bootstrap Order (MVP) — v0.1
 
 1. **.github**: PR/Issue templates + GOVERNANCE + CODEOWNERS
-2. **aaa-actions**: lint/test/eval/release workflows + tag `v0.1.0`
+2. **aaa-actions**: lint/test/eval/release workflows + tag `v0.7.0`
 3. **aaa-tpl-docs**: ACC/PP + `.ai-context.md` + PRD/ADR templates
 4. **aaa-tpl-service**: minimal service skeleton + CI calling `aaa-actions`
 5. **aaa-tpl-frontend**: minimal frontend skeleton + CI calling `aaa-actions`
