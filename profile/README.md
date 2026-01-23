@@ -124,6 +124,10 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 詳細里程碑與版本紀錄請見 `aaa-tpl-docs/reports/`（內部）。
 
+**v0.7 對外摘要與證據**
+- One-pager: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/audits/aaa_v0.7_one_pager_20260123.md
+- Gate evidence: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.7_gate_evidence_20260123.md
+
 ### 🧭 未來 Roadmap（Future）
 
 接下來版本規劃（由近到遠）：
