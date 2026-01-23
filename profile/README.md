@@ -136,7 +136,6 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 接下來版本規劃（由近到遠）：
 
-- **v0.8 — Marketplace Assets**：模板與 prompt packs 資產市場化、Template Registry 與 Pack Manifest。  
 - **v0.9 — Data & Observability**：治理 KPI（drift/compliance/repo health）與 dashboard/告警機制。  
 - **v1.0 — Enterprise-Ready**：企業級 SOP、CI/CD 合規自動化、年度治理審核模板。  
 - **v1.1+ — Governance Autopilot**：治理失敗自動修復 PR、Gate 轉修復動作、Policy Packs。  
