@@ -112,8 +112,9 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 ### ✅ 目前進度（Real Progress）
 
-目前已完成 AAA v0.1 → v0.7，重點里程碑如下（由新到舊）：
+目前已完成 AAA v0.1 → v0.8，重點里程碑如下（由新到舊）：
 
+- **v0.8**：Marketplace Assets 完成；Pack Registry / Manifest / 安裝與 pack checks 可插拔化。  
 - **v0.7**：SSOT checks 與 repo_type 持久化落地；verify-ci 與 repo-checks 行為一致化。  
 - **v0.6**：Agent safety 邊界與安全測試基線完成（scope/path traversal 防護）。  
 - **v0.5**：Runbook runtime 與標準 action library 成形，支援可追溯執行。  
@@ -128,6 +129,9 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 - One-pager: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/audits/aaa_v0.7_one_pager_20260123.md
 - Gate evidence: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.7_gate_evidence_20260123.md
 
+**v0.8 對外摘要與證據**
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.8_completion_report_20260124.md
+
 ### 🧭 未來 Roadmap（Future）
 
 接下來版本規劃（由近到遠）：
@@ -135,6 +139,8 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 - **v0.8 — Marketplace Assets**：模板與 prompt packs 資產市場化、Template Registry 與 Pack Manifest。  
 - **v0.9 — Data & Observability**：治理 KPI（drift/compliance/repo health）與 dashboard/告警機制。  
 - **v1.0 — Enterprise-Ready**：企業級 SOP、CI/CD 合規自動化、年度治理審核模板。  
+- **v1.1+ — Governance Autopilot**：治理失敗自動修復 PR、Gate 轉修復動作、Policy Packs。  
+- **v1.1+ — Observability & Risk Ledger**：治理指標時間序列、風險帳本與可稽核 ledger。  
 
 ---
 
