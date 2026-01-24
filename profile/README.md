@@ -115,11 +115,11 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 目前已完成 AAA v0.1 → v1.0，重點里程碑如下（由新到舊）：
 
 - **v1.0**：Gate-First Enterprise Governance；ruleset + governance-gate 強制合規，enterprise bootstrap 與 release integrity 落地。  
-- **v0.9**：治理 KPI 與合規儀表板落地；nightly 報告與趨勢視圖可用。  
+- **v0.9**：治理 KPI 與合規儀表板落地；新增 drift/repo health 指標與 post-mortem 發佈機制。  
 - **v0.8**：Marketplace Assets 完成；Pack Registry / Manifest / 安裝與 pack checks 可插拔化。  
 - **v0.7**：SSOT checks 與 repo_type 持久化落地；verify-ci 與 repo-checks 行為一致化。  
 - **v0.6**：Agent safety 邊界與安全測試基線完成（scope/path traversal 防護）。  
-- **v0.5**：Runbook runtime 與標準 action library 成形，支援可追溯執行。  
+- **v0.5**：Runbook runtime 與標準 action library 成形，upgrade/audit runbooks 補齊。  
 - **v0.4**：SOP 與 CLI 合約對齊，加入 post-init audit 閉環。  
 - **v0.3**：onboarding 文件一致性與 CI 穩定治理上線。  
 - **v0.2**：決策樹與可治理/可路由/可降級架構建立。  
@@ -134,12 +134,19 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 - One-pager: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.9_one_pager_20260123.md
 - Gate evidence: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.9_gate_evidence_20260123.md
 - Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.9_completion_report_20260123.md
+- Observability upgrade: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.9_observability_upgrade_20260124.md
 
 **歷史完成報告（摘要）**
 - v0.8: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.8_completion_report_20260124.md
 - v0.7: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.7_completion_report_20260123_0915.md
 - v0.6: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.6_completion_report_20260122_2300.md
 - v0.5: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.5_completion_report_20260121_2348.md
+- v0.5 upgrade/audit runbooks: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.5_upgrade_audit_runbooks_20260124.md
+
+**待辦紀錄（Pending Logs）**
+- Nightly 驗證：確認 P2-1 threshold 失敗仍可發布 dashboard  
+- P0-3 證據補齊：實跑 `aaa init repo-checks --suite governance` 並更新稽核報告  
+- P2-3 後續驗證：repo-upgrade / repo-audit workflow 實際證據  
 
 ### 🧭 未來 Roadmap（Future）
 
