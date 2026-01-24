@@ -112,8 +112,9 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 ### ✅ 目前進度（Real Progress）
 
-目前已完成 AAA v0.1 → v0.9，重點里程碑如下（由新到舊）：
+目前已完成 AAA v0.1 → v1.0，重點里程碑如下（由新到舊）：
 
+- **v1.0**：Gate-First Enterprise Governance；ruleset + governance-gate 強制合規，enterprise bootstrap 與 release integrity 落地。  
 - **v0.9**：治理 KPI 與合規儀表板落地；nightly 報告與趨勢視圖可用。  
 - **v0.8**：Marketplace Assets 完成；Pack Registry / Manifest / 安裝與 pack checks 可插拔化。  
 - **v0.7**：SSOT checks 與 repo_type 持久化落地；verify-ci 與 repo-checks 行為一致化。  
@@ -126,18 +127,24 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 詳細里程碑與版本紀錄請見 `aaa-tpl-docs/reports/`（內部）。
 
-**v0.7 對外摘要與證據**
-- One-pager: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/audits/aaa_v0.7_one_pager_20260123.md
-- Gate evidence: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.7_gate_evidence_20260123.md
+**v1.0 對外摘要與證據**
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v1.0_completion_report_20260124.md
 
-**v0.8 對外摘要與證據**
-- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.8_completion_report_20260124.md
+**v0.9 對外摘要與證據**
+- One-pager: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.9_one_pager_20260123.md
+- Gate evidence: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.9_gate_evidence_20260123.md
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.9_completion_report_20260123.md
+
+**歷史完成報告（摘要）**
+- v0.8: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.8_completion_report_20260124.md
+- v0.7: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.7_completion_report_20260123_0915.md
+- v0.6: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.6_completion_report_20260122_2300.md
+- v0.5: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.5_completion_report_20260121_2348.md
 
 ### 🧭 未來 Roadmap（Future）
 
 接下來版本規劃（由近到遠）：
 
-- **v1.0 — Enterprise-Ready**：企業級 SOP、CI/CD 合規自動化、年度治理審核模板。  
 - **v1.1+ — Governance Autopilot**：治理失敗自動修復 PR、Gate 轉修復動作、Policy Packs。  
 - **v1.1+ — Observability & Risk Ledger**：治理指標時間序列、風險帳本與可稽核 ledger。  
 
