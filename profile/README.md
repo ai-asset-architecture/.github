@@ -152,8 +152,8 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 接下來版本規劃（由近到遠）：
 
-- **v1.1+ — Governance Autopilot**：治理失敗自動修復 PR、Gate 轉修復動作、Policy Packs。  
-- **v1.1+ — Observability & Risk Ledger**：治理指標時間序列、風險帳本與可稽核 ledger。  
+- **v2.0 — Governance Autopilot**：治理失敗自動修復 PR、Gate 轉修復動作、Policy Packs。  
+- **v2.0 — Observability & Risk Ledger**：治理指標時間序列、風險帳本與可稽核 ledger。  
 
 ---
 
