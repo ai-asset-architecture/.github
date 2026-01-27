@@ -144,9 +144,12 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 - v0.5 upgrade/audit runbooks: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v0.5_upgrade_audit_runbooks_20260124.md
 
 **待辦紀錄（Pending Logs）**
-- Nightly 驗證：確認 P2-1 threshold 失敗仍可發布 dashboard  
-- P0-3 證據補齊：實跑 `aaa init repo-checks --suite governance` 並更新稽核報告  
-- P2-3 後續驗證：repo-upgrade / repo-audit workflow 實際證據  
+- ✅ [COMPLETED 2026-01-28] Nightly 驗證：確認 P2-1 threshold 失敗仍可發布 dashboard  
+  - Evidence: [P2-1 Resilience Validation](https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/audits/2026-01-28-p2-1-nightly-resilience-validation.md)
+- ✅ [COMPLETED 2026-01-28] P0-3 證據補齊：實跑 `aaa audit --local` 並更新稽核報告  
+  - Evidence: [Governance Suite Report](https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/audits/2026-01-28-governance-suite-evidence.md) | [JSON](https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/audits/2026-01-28-governance-suite-evidence.json)
+- ✅ [COMPLETED 2026-01-28] P2-3 後續驗證：repo-upgrade / repo-audit workflow 實際證據  
+  - Evidence: [Workflow Execution Report](https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/audits/2026-01-28-workflow-evidence.md) | [Run #21417181000](https://github.com/ai-asset-architecture/aaa-actions/actions/runs/21417181000) | [Run #21417186520](https://github.com/ai-asset-architecture/aaa-actions/actions/runs/21417186520)  
 
 ### 🧭 未來 Roadmap（Future）
 
