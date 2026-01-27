@@ -128,20 +128,20 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 詳細里程碑與版本紀錄請見 `aaa-tpl-docs/reports/`（內部）。
 
 **v1.0 對外摘要與證據**
-- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v1.0_completion_report_20260124.md
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v1.0_completion_report_20260124.md
 
 **v0.9 對外摘要與證據**
-- One-pager: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.9_one_pager_20260123.md
-- Gate evidence: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.9_gate_evidence_20260123.md
-- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.9_completion_report_20260123.md
-- Observability upgrade: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.9_observability_upgrade_20260124.md
+- One-pager: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v0.9_one_pager_20260123.md
+- Gate evidence: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v0.9_gate_evidence_20260123.md
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v0.9_completion_report_20260123.md
+- Observability upgrade: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v0.9_observability_upgrade_20260124.md
 
 **歷史完成報告（摘要）**
-- v0.8: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.8_completion_report_20260124.md
-- v0.7: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.7_completion_report_20260123_0915.md
-- v0.6: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.6_completion_report_20260122_2300.md
-- v0.5: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.5_completion_report_20260121_2348.md
-- v0.5 upgrade/audit runbooks: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/reports/milestones/aaa_v0.5_upgrade_audit_runbooks_20260124.md
+- v0.8: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v0.8_completion_report_20260124.md
+- v0.7: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v0.7_completion_report_20260123_0915.md
+- v0.6: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v0.6_completion_report_20260122_2300.md
+- v0.5: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v0.5_completion_report_20260121_2348.md
+- v0.5 upgrade/audit runbooks: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v0.5_upgrade_audit_runbooks_20260124.md
 
 **待辦紀錄（Pending Logs）**
 - Nightly 驗證：確認 P2-1 threshold 失敗仍可發布 dashboard  
