@@ -152,8 +152,25 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 接下來版本規劃（由近到遠）：
 
-- **v2.0 — Governance Autopilot**：治理失敗自動修復 PR、Gate 轉修復動作、Policy Packs。  
-- **v2.0 — Observability & Risk Ledger**：治理指標時間序列、風險帳本與可稽核 ledger。  
+#### v1.1 — Pending Validation & Remediation
+- Nightly 驗證：確認 P2-1 threshold 失敗仍可發布 dashboard
+- P0-3 證據補齊：實跑 `aaa init repo-checks --suite governance` 並更新稽核報告
+- P2-3 後續驗證：repo-upgrade / repo-audit workflow 實際證據
+
+#### v1.5 — Enhanced Observability
+- 治理指標時間序列（metrics over time）
+- Drift detection 與 repo health scoring
+- Dashboard 互動式查詢與歷史趨勢
+
+#### v2.0 — Governance Autopilot
+- 治理失敗自動修復 PR（auto-remediation）
+- Gate 轉修復動作（gate-to-fix workflow）
+- Policy Packs（可插拔治理規則包）
+
+#### v2.5 — Risk Ledger & Audit Trail
+- 風險帳本（immutable risk ledger）
+- 可稽核 audit trail（compliance-ready logs）
+- Multi-org governance federation  
 
 ---
 
