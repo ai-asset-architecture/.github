@@ -152,20 +152,12 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 接下來版本規劃（由近到遠）：
 
-#### Phase 1: Semantic Era (語義時代) — v1.1 至 v1.3
-
 - **v1.1 — AI-Native Interface**：CLI 支援 AI-first 協定、語義化錯誤訊息、MCP 實驗整合
 - **v1.2 — Semantic Registry**：Registry 升級為語義能力目錄、Object-centric 治理、動態 Pack 發現
 - **v1.3 — Governance Compiler**：自然語言定義政策自動編譯、互動式選單、分級導入 (Light/Standard/Enterprise)
-
-#### Phase 2: Active Guardian (主動守護時代) — v1.4 至 v1.6
-
 - **v1.4 — Guardian Daemon**：即時監控 daemon、IDE plugin 整合、keystroke-level 回饋
 - **v1.5 — Self-Healing Engine**：Gate 失敗自動修復、語義檢查 (LLM-based)、修復 PR 自動產生
 - **v1.6 — Multi-Agent Orchestration**：Agent 衝突解決、協作仲裁、工作空間隔離
-
-#### Phase 3: Digital Constitution (數位憲法時代) — v1.7 至 v2.0
-
 - **v1.7 — Federated Governance**：軟體供應鏈治理、Remote audit、跨組織信任鏈
 - **v1.8 — Observability 2.0**：治理指標時序化、風險帳本、異常告警與趨勢 Dashboard
 - **v1.9 — Supreme Court Interface**：人類最高決策介面、案例法系統、道德兩難仲裁
