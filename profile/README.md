@@ -112,8 +112,9 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 ### ✅ 目前進度（Real Progress）
 
-目前已完成 AAA v0.1 → v1.0，重點里程碑如下（由新到舊）：
+目前已完成 AAA v0.1 → v1.1，重點里程碑如下（由新到舊）：
 
+- **v1.1**：AI-Native Interface 完成 (2026-01-28)；CLI 支援 AI-first 協定、語義化錯誤訊息、MCP 實驗整合。
 - **v1.0**：Gate-First Enterprise Governance；ruleset + governance-gate 強制合規，enterprise bootstrap 與 release integrity 落地。  
 - **v0.9**：治理 KPI 與合規儀表板落地；新增 drift/repo health 指標與 post-mortem 發佈機制。  
 - **v0.8**：Marketplace Assets 完成；Pack Registry / Manifest / 安裝與 pack checks 可插拔化。  
@@ -126,6 +127,10 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 - **v0.1**：可執行架構基線與治理規範完成。  
 
 詳細里程碑與版本紀錄請見 `aaa-tpl-docs/reports/`（內部）。
+
+**v1.1 對外摘要與證據**
+- Architecture: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/milestones/20260128_v1.1_semantic_era.md
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v1.1_completion_report_20260128.md
 
 **v1.0 對外摘要與證據**
 - Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v1.0_completion_report_20260124.md
@@ -155,7 +160,6 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 接下來版本規劃（由近到遠）：
 
-- **v1.1 — AI-Native Interface**：CLI 支援 AI-first 協定、語義化錯誤訊息、MCP 實驗整合
 - **v1.2 — Semantic Registry**：Registry 升級為語義能力目錄、Object-centric 治理、動態 Pack 發現
 - **v1.3 — Governance Compiler**：自然語言定義政策自動編譯、互動式選單、分級導入 (Light/Standard/Enterprise)
 - **v1.4 — Guardian Daemon**：即時監控 daemon、IDE plugin 整合、keystroke-level 回饋
@@ -167,5 +171,8 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 - **v2.0 — The Agent OS**：完整 Agent 作業系統、生產級 Agent 自主能力、統一治理層  
 
 ---
+
+**Last Updated**: 2026-01-28  
+**Version**: 1.1  
 
 更多技術落地細節與初始化順序，請看 `.github/README.md`。
