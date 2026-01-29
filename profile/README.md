@@ -185,12 +185,7 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 接下來版本規劃（由近到遠）：
 
-- **v1.6**：Multi-Agent Orchestration 完成 (2026-01-29)；Agent 衝突解決、TTL File Locking、CLI Lock Commands。
-- **v1.5**：Self-Healing Engine 完成 (2026-01-29)；Gate 失敗自動修復、語義檢查、修復 PR 自動產生。
-- **v1.4**：Guardian Daemon 完成 (2026-01-28)；Policy Distribution、Registry-based Ops、`aaa check --remote`。
-- **v1.3**：Governance Compiler 完成 (2026-01-28)；自然語言定義政策自動編譯、互動式選單。
-- **v1.2**：Semantic Registry 完成 (2026-01-28)；版本握手、語義查詢、Object-centric 治理。
-- **v1.1**：AI-Native Interface 完成 (2026-01-28)；CLI 支援 AI-first 協定、語義化錯誤訊息、MCP 實驗整合。
+
 - **v1.7 — Federated Governance**：軟體供應鏈治理、Remote audit、跨組織信任鏈
 - **v1.8 — Observability 2.0**：治理指標時序化、風險帳本、異常告警與趨勢 Dashboard
 - **v1.9 — Supreme Court Interface**：人類最高決策介面、案例法系統、道德兩難仲裁
