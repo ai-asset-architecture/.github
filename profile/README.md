@@ -120,16 +120,16 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 - **v1.3**：Governance Compiler 完成 (2026-01-28)；自然語言定義政策自動編譯、互動式選單。
 - **v1.2**：Semantic Registry 完成 (2026-01-28)；版本握手、語義查詢、Object-centric 治理。
 - **v1.1**：AI-Native Interface 完成 (2026-01-28)；CLI 支援 AI-first 協定、語義化錯誤訊息、MCP 實驗整合。
-- **v1.0**：Gate-First Enterprise Governance；ruleset + governance-gate 強制合規，enterprise bootstrap 與 release integrity 落地。  
-- **v0.9**：治理 KPI 與合規儀表板落地；新增 drift/repo health 指標與 post-mortem 發佈機制。  
-- **v0.8**：Marketplace Assets 完成；Pack Registry / Manifest / 安裝與 pack checks 可插拔化。  
-- **v0.7**：SSOT checks 與 repo_type 持久化落地；verify-ci 與 repo-checks 行為一致化。  
-- **v0.6**：Agent safety 邊界與安全測試基線完成（scope/path traversal 防護）。  
-- **v0.5**：Runbook runtime 與標準 action library 成形，upgrade/audit runbooks 補齊。  
-- **v0.4**：SOP 與 CLI 合約對齊，加入 post-init audit 閉環。  
-- **v0.3**：onboarding 文件一致性與 CI 穩定治理上線。  
-- **v0.2**：決策樹與可治理/可路由/可降級架構建立。  
-- **v0.1**：可執行架構基線與治理規範完成。  
+- **v1.0**：Gate-First Enterprise Governance (2026-01-24)；ruleset + governance-gate 強制合規，enterprise bootstrap 與 release integrity 落地。  
+- **v0.9**：治理 KPI 與合規儀表板落地 (2026-01-23)；新增 drift/repo health 指標與 post-mortem 發佈機制。  
+- **v0.8**：Marketplace Assets 完成 (2026-01-24)；Pack Registry / Manifest / 安裝與 pack checks 可插拔化。  
+- **v0.7**：SSOT checks 與 repo_type 持久化落地 (2026-01-23)；verify-ci 與 repo-checks 行為一致化。  
+- **v0.6**：Agent safety 邊界與安全測試基線完成 (2026-01-22)；scope/path traversal 防護。  
+- **v0.5**：Runbook runtime 與標準 action library 成形 (2026-01-21)；upgrade/audit runbooks 補齊。  
+- **v0.4**：SOP 與 CLI 合約對齊 (2026-01-21)；加入 post-init audit 閉環。  
+- **v0.3**：onboarding 文件一致性與 CI 穩定治理上線 (2026-01-21)。  
+- **v0.2**：決策樹與可治理/可路由/可降級架構建立 (2026-01-20)。  
+- **v0.1**：可執行架構基線與治理規範完成 (2026-01-18)。  
 
 詳細里程碑與版本紀錄請見 `aaa-tpl-docs/reports/`（內部）。
 
