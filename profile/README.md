@@ -39,7 +39,7 @@ aaa init --plan /tmp/aaa_plan_resolved.json
 ```
 
 詳細步驟請看：  
-https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/docs/new-project-sop.md
+https://github.com/ai-asset-architecture/aaa-docs/blob/main/docs/new-project-sop.md
 
 ---
 
