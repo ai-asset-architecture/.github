@@ -112,7 +112,7 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 ### ✅ 目前進度（Real Progress）
 
-目前已完成 AAA v0.1 → v1.6，重點里程碑如下（由新到舊）：
+目前已完成 AAA v0.1 → v2.0，重點里程碑如下（由新到舊）：
 
 - **Project OMEGA**：Ultimate Validation 完成 (2026-01-29)；135 Unit Tests、Logic Coverage > 90%、7-Step E2E Lifecycle Simulation。
 - **v2.0**：The Agent OS 完成 (2026-01-29)；`aaa os` Kernel、Global Trust Network、Enterprise Certification、Self-Governing Autonomy。
