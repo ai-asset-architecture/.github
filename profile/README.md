@@ -114,6 +114,7 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 目前已完成 AAA v0.1 → v1.6，重點里程碑如下（由新到舊）：
 
+- **Project OMEGA**：Ultimate Validation 完成 (2026-01-29)；135 Unit Tests、Logic Coverage > 90%、7-Step E2E Lifecycle Simulation。
 - **v2.0**：The Agent OS 完成 (2026-01-29)；`aaa os` Kernel、Global Trust Network、Enterprise Certification、Self-Governing Autonomy。
 - **v1.9**：Supreme Court Interface 完成 (2026-01-29)；`aaa court`、人機共治 (Hybrid)、Case #001 判例確立。
 - **v1.8**：Observability 2.0 完成 (2026-01-29)；Time-Series Metrics (SQLite)、RiskLedger (Privacy Scrubber)、Trend Dashboard (ASCII)。
@@ -136,6 +137,26 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 - **v0.1**：可執行架構基線與治理規範完成 (2026-01-18)。  
 
 詳細里程碑與版本紀錄請見 `aaa-tpl-docs/reports/`（內部）。
+
+**Project OMEGA 對外摘要與證據**
+- Architecture: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/milestones/20260129_omega_acceptance_summary.md
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_omega_completion_report_20260129.md
+
+**v2.0 對外摘要與證據**
+- Architecture: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/milestones/20260129_v2.0_the_agent_os.md
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v2.0_completion_report_20260129.md
+
+**v1.9 對外摘要與證據**
+- Architecture: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/milestones/20260129_v1.9_supreme_court_interface.md
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v1.9_completion_report_20260129.md
+
+**v1.8 對外摘要與證據**
+- Architecture: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/milestones/20260129_v1.8_observability_2.0.md
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v1.8_completion_report_20260129.md
+
+**v1.7 對外摘要與證據**
+- Architecture: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/milestones/20260129_v1.7_federated_governance.md
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v1.7_completion_report_20260129.md
 
 **v1.6 對外摘要與證據**
 - Architecture: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/milestones/20260129_v1.6_Multi_Agent_Orchestration.md
@@ -189,11 +210,13 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 接下來版本規劃（由近到遠）：
 
-- **Phase 2 — Global Expansion**：Agent Marketplace, Multi-Org Federation (Planning).
+- **v2.0.1 — The Black Box**：MCP Scope Control, Handshake Stub, Security First Strategy.
+- **v2.1 - v2.3 — Connectivity Era**：SSE Bridge Server, macOS Desktop Bridge, Agent Shell, Capability Mesh.
+- **v2.4 - v3.0 — Economy Era**：Compute Credits (CC), Task Bounties, Smart Contracts, Autonomous Society.
 
 ---
 
 **Last Updated**: 2026-01-29  
-**Version**: 2.0.0 (Phase 1 Complete)
+**Version**: 2.0.1 (Security & Connectivity Phase)
 
 更多技術落地細節與初始化順序，請看 `.github/README.md`。
