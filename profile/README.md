@@ -133,6 +133,26 @@ AAA CLI（`aaa-tools`）是關鍵執行引擎，實現 **確定性 (Determinism)
 
 詳細里程碑與版本紀錄請見 `aaa-tpl-docs/reports/`（內部）。
 
+**v1.6 對外摘要與證據**
+- Architecture: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/milestones/20260129_v1.6_Multi_Agent_Orchestration.md
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v1.6_completion_report_20260129.md
+
+**v1.5 對外摘要與證據**
+- Architecture: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/milestones/20260128_v1.5_Self_Healing_Engine.md
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v1.5_completion_report_20260128.md
+
+**v1.4 對外摘要與證據**
+- Architecture: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/milestones/20260128_v1.4_Policy_Distribution.md
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v1.4_completion_report_20260128.md
+
+**v1.3 對外摘要與證據**
+- Architecture: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/milestones/20260128_v1.3_Governance_Compiler.md
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v1.3_completion_report_20260128.md
+
+**v1.2 對外摘要與證據**
+- Architecture: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/milestones/20260128_v1.2_semantic_registry.md
+- Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v1.2_completion_report_20260128.md
+
 **v1.1 對外摘要與證據**
 - Architecture: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/milestones/20260128_v1.1_semantic_era.md
 - Completion report: https://github.com/ai-asset-architecture/aaa-tpl-docs/blob/main/internal/development/milestones/completion-reports/aaa_v1.1_completion_report_20260128.md
